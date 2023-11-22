@@ -1,0 +1,8 @@
+prefix=/home/xie/桌面/ros_template/build/devel
+
+Name: test4acados
+Description: Description of test4acados
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
