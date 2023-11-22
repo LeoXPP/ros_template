@@ -1,8 +1,93 @@
 [
 {
   "directory": "/home/xie/桌面/ros_template/build",
-  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_sub.dir/src/test4acados_sub.cpp.o -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/test4acados_sub.cpp",
-  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/test4acados_sub.cpp"
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_bicycle_model.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_bicycle_model.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_sfunction_bicycle_model.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_sfunction_bicycle_model.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_bicycle_model.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_bicycle_model.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_sfunction_bicycle_model.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_sfunction_bicycle_model.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_fun.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_fun.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_hess.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_hess.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_adj.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_adj.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_forw.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_forw.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetInf.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetInf.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetNaN.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetNaN.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_matrx.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_matrx.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_nonfinite.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_nonfinite.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_printf.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_printf.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop.c"
+},
+{
+  "directory": "/home/xie/桌面/ros_template/build",
+  "command": "/usr/bin/gcc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"test4acados\\\" -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop_data.c",
+  "file": "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop_data.c"
 },
 {
   "directory": "/home/xie/桌面/ros_template/build",

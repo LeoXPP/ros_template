@@ -13,7 +13,6 @@
 /home/xie/桌面/ros_template/build/CMakeFiles/roscpp_generate_messages_lisp.dir
 /home/xie/桌面/ros_template/build/CMakeFiles/tests.dir
 /home/xie/桌面/ros_template/build/CMakeFiles/roscpp_generate_messages_cpp.dir
-/home/xie/桌面/ros_template/build/CMakeFiles/test4acados_sub.dir
 /home/xie/桌面/ros_template/build/CMakeFiles/roscpp_generate_messages_eus.dir
 /home/xie/桌面/ros_template/build/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/xie/桌面/ros_template/build/CMakeFiles/roscpp_generate_messages_nodejs.dir

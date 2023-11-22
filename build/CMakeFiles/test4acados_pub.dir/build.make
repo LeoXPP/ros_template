@@ -57,9 +57,441 @@ include CMakeFiles/test4acados_pub.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test4acados_pub.dir/flags.make
 
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_bicycle_model.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_bicycle_model.c
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_bicycle_model.c > CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.i
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_bicycle_model.c -o CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.s
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.provides: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_sfunction_bicycle_model.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_sfunction_bicycle_model.c
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_sfunction_bicycle_model.c > CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.i
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_sim_solver_sfunction_bicycle_model.c -o CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.s
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.provides: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_bicycle_model.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_bicycle_model.c
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_bicycle_model.c > CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.i
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_bicycle_model.c -o CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.s
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.provides: CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_sfunction_bicycle_model.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_sfunction_bicycle_model.c
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_sfunction_bicycle_model.c > CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.i
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/acados_solver_sfunction_bicycle_model.c -o CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.s
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.provides: CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_fun.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_fun.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_fun.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_hess.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_hess.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_hess.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_ode_hess.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_adj.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_adj.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_adj.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_adj.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_forw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_forw.c
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_forw.c > CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.i
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/bicycle_model_expl_vde_forw.c -o CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.s
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.provides: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetInf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetInf.c
+
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetInf.c > CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.i
+
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetInf.c -o CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.s
+
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.provides: CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetNaN.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetNaN.c
+
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetNaN.c > CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.i
+
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rtGetNaN.c -o CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.s
+
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.provides: CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_matrx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_matrx.c
+
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_matrx.c > CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.i
+
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_matrx.c -o CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.s
+
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.provides: CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_nonfinite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_nonfinite.c
+
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_nonfinite.c > CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.i
+
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_nonfinite.c -o CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.s
+
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.provides: CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_printf.c
+
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/rt_printf.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_printf.c > CMakeFiles/test4acados_pub.dir/src/rt_printf.c.i
+
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/rt_printf.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/rt_printf.c -o CMakeFiles/test4acados_pub.dir/src/rt_printf.c.s
+
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.provides: CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop.c
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop.c > CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.i
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop.c -o CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.s
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.provides: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o
+
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o: CMakeFiles/test4acados_pub.dir/flags.make
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o   -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop_data.c
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop_data.c > CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.i
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xie/桌面/ros_template/ros_template/src/test4acados/src/simulink_model_closedloop_data.c -o CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.s
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.requires:
+
+.PHONY : CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.requires
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.provides: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.requires
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.provides.build
+.PHONY : CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.provides
+
+CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.provides.build: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o
+
+
 CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o: CMakeFiles/test4acados_pub.dir/flags.make
 CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o: /home/xie/桌面/ros_template/ros_template/src/test4acados/src/test4acados_pub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o -c /home/xie/桌面/ros_template/ros_template/src/test4acados/src/test4acados_pub.cpp
 
 CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.i: cmake_force
@@ -83,11 +515,47 @@ CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o.provides.build: CMakeFi
 
 # Object files for target test4acados_pub
 test4acados_pub_OBJECTS = \
+"CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o" \
+"CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o" \
 "CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o"
 
 # External object files for target test4acados_pub
 test4acados_pub_EXTERNAL_OBJECTS =
 
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o
+devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o
 devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o
 devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/build.make
 devel/lib/test4acados/test4acados_pub: /opt/ros/melodic/lib/libroscpp.so
@@ -109,7 +577,7 @@ devel/lib/test4acados/test4acados_pub: /usr/lib/x86_64-linux-gnu/libboost_atomic
 devel/lib/test4acados/test4acados_pub: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/test4acados/test4acados_pub: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/test4acados/test4acados_pub: CMakeFiles/test4acados_pub.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable devel/lib/test4acados/test4acados_pub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xie/桌面/ros_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable devel/lib/test4acados/test4acados_pub"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test4acados_pub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +585,24 @@ CMakeFiles/test4acados_pub.dir/build: devel/lib/test4acados/test4acados_pub
 
 .PHONY : CMakeFiles/test4acados_pub.dir/build
 
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o.requires
+CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o.requires
 CMakeFiles/test4acados_pub.dir/requires: CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o.requires
 
 .PHONY : CMakeFiles/test4acados_pub.dir/requires

@@ -3,9 +3,52 @@
 
 #include <sstream>
 
+#include <stddef.h>
+#include <stdio.h>            /* This example main program uses printf/fflush */
+#include "simulink_model_closedloop.h" /* Model header file */
+#include "types.h"
 /**
  * This tutorial demonstrates simple sending of messages over the ROS system.
  */
+
+real_t *out_uuuuu;
+
+void rt_OneStep(void);
+void rt_OneStep(void)
+{
+  static boolean_T OverrunFlag = false;
+
+  /* Disable interrupts here */
+
+  /* Check for overrun */
+  if (OverrunFlag) {
+    rtmSetErrorStatus(rtM, "Overrun");
+
+    return;
+  }
+
+  OverrunFlag = true;
+
+  /* Save FPU context here (if necessary) */
+  /* Re-enable timer or interrupt here */
+  /* Set model inputs here */
+
+  /* Step the model */
+  simulink_model_closedloop_step();
+
+  /* Get model outputs here */
+real_t *out_u ;
+out_u  = out_uuuuu;
+printf("the final answer is : %f", out_u[0]);
+  /* Indicate task complete */
+  OverrunFlag = false;
+
+  /* Disable interrupts here */
+  /* Restore FPU context here (if necessary) */
+  /* Enable interrupts here */
+}
+
+
 int main(int argc, char *argv[])
 {
 	/**
@@ -47,7 +90,7 @@ int main(int argc, char *argv[])
 	ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
 
 	ros::Rate loop_rate(10);
-
+	simulink_model_closedloop_initialize();
 	/**
 	 * A count of how many messages we have sent. This is used to create
 	 * a unique string for each message.
@@ -58,6 +101,9 @@ int main(int argc, char *argv[])
 		/**
 		 * This is a message object. You stuff it with data, and then publish it.
 		 */
+		printf("acados sim solve: returned yes yes yes!!!");
+		rt_OneStep();
+
 		std_msgs::String msg;
 
 		std::stringstream ss;

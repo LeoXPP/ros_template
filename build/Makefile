@@ -298,19 +298,6 @@ roscpp_generate_messages_cpp/fast:
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named test4acados_sub
-
-# Build rule for target.
-test4acados_sub: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test4acados_sub
-.PHONY : test4acados_sub
-
-# fast build rule for target.
-test4acados_sub/fast:
-	$(MAKE) -f CMakeFiles/test4acados_sub.dir/build.make CMakeFiles/test4acados_sub.dir/build
-.PHONY : test4acados_sub/fast
-
-#=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
 
 # Build rule for target.
@@ -518,6 +505,492 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/acados_sim_solver_bicycle_model.o: src/acados_sim_solver_bicycle_model.c.o
+
+.PHONY : src/acados_sim_solver_bicycle_model.o
+
+# target to build an object file
+src/acados_sim_solver_bicycle_model.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.o
+.PHONY : src/acados_sim_solver_bicycle_model.c.o
+
+src/acados_sim_solver_bicycle_model.i: src/acados_sim_solver_bicycle_model.c.i
+
+.PHONY : src/acados_sim_solver_bicycle_model.i
+
+# target to preprocess a source file
+src/acados_sim_solver_bicycle_model.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.i
+.PHONY : src/acados_sim_solver_bicycle_model.c.i
+
+src/acados_sim_solver_bicycle_model.s: src/acados_sim_solver_bicycle_model.c.s
+
+.PHONY : src/acados_sim_solver_bicycle_model.s
+
+# target to generate assembly for a file
+src/acados_sim_solver_bicycle_model.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_bicycle_model.c.s
+.PHONY : src/acados_sim_solver_bicycle_model.c.s
+
+src/acados_sim_solver_sfunction_bicycle_model.o: src/acados_sim_solver_sfunction_bicycle_model.c.o
+
+.PHONY : src/acados_sim_solver_sfunction_bicycle_model.o
+
+# target to build an object file
+src/acados_sim_solver_sfunction_bicycle_model.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.o
+.PHONY : src/acados_sim_solver_sfunction_bicycle_model.c.o
+
+src/acados_sim_solver_sfunction_bicycle_model.i: src/acados_sim_solver_sfunction_bicycle_model.c.i
+
+.PHONY : src/acados_sim_solver_sfunction_bicycle_model.i
+
+# target to preprocess a source file
+src/acados_sim_solver_sfunction_bicycle_model.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.i
+.PHONY : src/acados_sim_solver_sfunction_bicycle_model.c.i
+
+src/acados_sim_solver_sfunction_bicycle_model.s: src/acados_sim_solver_sfunction_bicycle_model.c.s
+
+.PHONY : src/acados_sim_solver_sfunction_bicycle_model.s
+
+# target to generate assembly for a file
+src/acados_sim_solver_sfunction_bicycle_model.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_sim_solver_sfunction_bicycle_model.c.s
+.PHONY : src/acados_sim_solver_sfunction_bicycle_model.c.s
+
+src/acados_solver_bicycle_model.o: src/acados_solver_bicycle_model.c.o
+
+.PHONY : src/acados_solver_bicycle_model.o
+
+# target to build an object file
+src/acados_solver_bicycle_model.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.o
+.PHONY : src/acados_solver_bicycle_model.c.o
+
+src/acados_solver_bicycle_model.i: src/acados_solver_bicycle_model.c.i
+
+.PHONY : src/acados_solver_bicycle_model.i
+
+# target to preprocess a source file
+src/acados_solver_bicycle_model.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.i
+.PHONY : src/acados_solver_bicycle_model.c.i
+
+src/acados_solver_bicycle_model.s: src/acados_solver_bicycle_model.c.s
+
+.PHONY : src/acados_solver_bicycle_model.s
+
+# target to generate assembly for a file
+src/acados_solver_bicycle_model.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_bicycle_model.c.s
+.PHONY : src/acados_solver_bicycle_model.c.s
+
+src/acados_solver_sfunction_bicycle_model.o: src/acados_solver_sfunction_bicycle_model.c.o
+
+.PHONY : src/acados_solver_sfunction_bicycle_model.o
+
+# target to build an object file
+src/acados_solver_sfunction_bicycle_model.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.o
+.PHONY : src/acados_solver_sfunction_bicycle_model.c.o
+
+src/acados_solver_sfunction_bicycle_model.i: src/acados_solver_sfunction_bicycle_model.c.i
+
+.PHONY : src/acados_solver_sfunction_bicycle_model.i
+
+# target to preprocess a source file
+src/acados_solver_sfunction_bicycle_model.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.i
+.PHONY : src/acados_solver_sfunction_bicycle_model.c.i
+
+src/acados_solver_sfunction_bicycle_model.s: src/acados_solver_sfunction_bicycle_model.c.s
+
+.PHONY : src/acados_solver_sfunction_bicycle_model.s
+
+# target to generate assembly for a file
+src/acados_solver_sfunction_bicycle_model.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/acados_solver_sfunction_bicycle_model.c.s
+.PHONY : src/acados_solver_sfunction_bicycle_model.c.s
+
+src/bicycle_model_constr_h_fun.o: src/bicycle_model_constr_h_fun.c.o
+
+.PHONY : src/bicycle_model_constr_h_fun.o
+
+# target to build an object file
+src/bicycle_model_constr_h_fun.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.o
+.PHONY : src/bicycle_model_constr_h_fun.c.o
+
+src/bicycle_model_constr_h_fun.i: src/bicycle_model_constr_h_fun.c.i
+
+.PHONY : src/bicycle_model_constr_h_fun.i
+
+# target to preprocess a source file
+src/bicycle_model_constr_h_fun.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.i
+.PHONY : src/bicycle_model_constr_h_fun.c.i
+
+src/bicycle_model_constr_h_fun.s: src/bicycle_model_constr_h_fun.c.s
+
+.PHONY : src/bicycle_model_constr_h_fun.s
+
+# target to generate assembly for a file
+src/bicycle_model_constr_h_fun.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun.c.s
+.PHONY : src/bicycle_model_constr_h_fun.c.s
+
+src/bicycle_model_constr_h_fun_jac_uxt_zt.o: src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o
+
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt.o
+
+# target to build an object file
+src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt.c.o
+
+src/bicycle_model_constr_h_fun_jac_uxt_zt.i: src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i
+
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt.i
+
+# target to preprocess a source file
+src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt.c.i
+
+src/bicycle_model_constr_h_fun_jac_uxt_zt.s: src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s
+
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt.s
+
+# target to generate assembly for a file
+src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt.c.s
+
+src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.o: src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o
+
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.o
+
+# target to build an object file
+src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.o
+
+src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.i: src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i
+
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.i
+
+# target to preprocess a source file
+src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.i
+
+src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.s: src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s
+
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.s
+
+# target to generate assembly for a file
+src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s
+.PHONY : src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.c.s
+
+src/bicycle_model_expl_ode_fun.o: src/bicycle_model_expl_ode_fun.c.o
+
+.PHONY : src/bicycle_model_expl_ode_fun.o
+
+# target to build an object file
+src/bicycle_model_expl_ode_fun.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.o
+.PHONY : src/bicycle_model_expl_ode_fun.c.o
+
+src/bicycle_model_expl_ode_fun.i: src/bicycle_model_expl_ode_fun.c.i
+
+.PHONY : src/bicycle_model_expl_ode_fun.i
+
+# target to preprocess a source file
+src/bicycle_model_expl_ode_fun.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.i
+.PHONY : src/bicycle_model_expl_ode_fun.c.i
+
+src/bicycle_model_expl_ode_fun.s: src/bicycle_model_expl_ode_fun.c.s
+
+.PHONY : src/bicycle_model_expl_ode_fun.s
+
+# target to generate assembly for a file
+src/bicycle_model_expl_ode_fun.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_fun.c.s
+.PHONY : src/bicycle_model_expl_ode_fun.c.s
+
+src/bicycle_model_expl_ode_hess.o: src/bicycle_model_expl_ode_hess.c.o
+
+.PHONY : src/bicycle_model_expl_ode_hess.o
+
+# target to build an object file
+src/bicycle_model_expl_ode_hess.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.o
+.PHONY : src/bicycle_model_expl_ode_hess.c.o
+
+src/bicycle_model_expl_ode_hess.i: src/bicycle_model_expl_ode_hess.c.i
+
+.PHONY : src/bicycle_model_expl_ode_hess.i
+
+# target to preprocess a source file
+src/bicycle_model_expl_ode_hess.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.i
+.PHONY : src/bicycle_model_expl_ode_hess.c.i
+
+src/bicycle_model_expl_ode_hess.s: src/bicycle_model_expl_ode_hess.c.s
+
+.PHONY : src/bicycle_model_expl_ode_hess.s
+
+# target to generate assembly for a file
+src/bicycle_model_expl_ode_hess.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_ode_hess.c.s
+.PHONY : src/bicycle_model_expl_ode_hess.c.s
+
+src/bicycle_model_expl_vde_adj.o: src/bicycle_model_expl_vde_adj.c.o
+
+.PHONY : src/bicycle_model_expl_vde_adj.o
+
+# target to build an object file
+src/bicycle_model_expl_vde_adj.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.o
+.PHONY : src/bicycle_model_expl_vde_adj.c.o
+
+src/bicycle_model_expl_vde_adj.i: src/bicycle_model_expl_vde_adj.c.i
+
+.PHONY : src/bicycle_model_expl_vde_adj.i
+
+# target to preprocess a source file
+src/bicycle_model_expl_vde_adj.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.i
+.PHONY : src/bicycle_model_expl_vde_adj.c.i
+
+src/bicycle_model_expl_vde_adj.s: src/bicycle_model_expl_vde_adj.c.s
+
+.PHONY : src/bicycle_model_expl_vde_adj.s
+
+# target to generate assembly for a file
+src/bicycle_model_expl_vde_adj.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_adj.c.s
+.PHONY : src/bicycle_model_expl_vde_adj.c.s
+
+src/bicycle_model_expl_vde_forw.o: src/bicycle_model_expl_vde_forw.c.o
+
+.PHONY : src/bicycle_model_expl_vde_forw.o
+
+# target to build an object file
+src/bicycle_model_expl_vde_forw.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.o
+.PHONY : src/bicycle_model_expl_vde_forw.c.o
+
+src/bicycle_model_expl_vde_forw.i: src/bicycle_model_expl_vde_forw.c.i
+
+.PHONY : src/bicycle_model_expl_vde_forw.i
+
+# target to preprocess a source file
+src/bicycle_model_expl_vde_forw.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.i
+.PHONY : src/bicycle_model_expl_vde_forw.c.i
+
+src/bicycle_model_expl_vde_forw.s: src/bicycle_model_expl_vde_forw.c.s
+
+.PHONY : src/bicycle_model_expl_vde_forw.s
+
+# target to generate assembly for a file
+src/bicycle_model_expl_vde_forw.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/bicycle_model_expl_vde_forw.c.s
+.PHONY : src/bicycle_model_expl_vde_forw.c.s
+
+src/rtGetInf.o: src/rtGetInf.c.o
+
+.PHONY : src/rtGetInf.o
+
+# target to build an object file
+src/rtGetInf.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.o
+.PHONY : src/rtGetInf.c.o
+
+src/rtGetInf.i: src/rtGetInf.c.i
+
+.PHONY : src/rtGetInf.i
+
+# target to preprocess a source file
+src/rtGetInf.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.i
+.PHONY : src/rtGetInf.c.i
+
+src/rtGetInf.s: src/rtGetInf.c.s
+
+.PHONY : src/rtGetInf.s
+
+# target to generate assembly for a file
+src/rtGetInf.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetInf.c.s
+.PHONY : src/rtGetInf.c.s
+
+src/rtGetNaN.o: src/rtGetNaN.c.o
+
+.PHONY : src/rtGetNaN.o
+
+# target to build an object file
+src/rtGetNaN.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.o
+.PHONY : src/rtGetNaN.c.o
+
+src/rtGetNaN.i: src/rtGetNaN.c.i
+
+.PHONY : src/rtGetNaN.i
+
+# target to preprocess a source file
+src/rtGetNaN.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.i
+.PHONY : src/rtGetNaN.c.i
+
+src/rtGetNaN.s: src/rtGetNaN.c.s
+
+.PHONY : src/rtGetNaN.s
+
+# target to generate assembly for a file
+src/rtGetNaN.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rtGetNaN.c.s
+.PHONY : src/rtGetNaN.c.s
+
+src/rt_matrx.o: src/rt_matrx.c.o
+
+.PHONY : src/rt_matrx.o
+
+# target to build an object file
+src/rt_matrx.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.o
+.PHONY : src/rt_matrx.c.o
+
+src/rt_matrx.i: src/rt_matrx.c.i
+
+.PHONY : src/rt_matrx.i
+
+# target to preprocess a source file
+src/rt_matrx.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.i
+.PHONY : src/rt_matrx.c.i
+
+src/rt_matrx.s: src/rt_matrx.c.s
+
+.PHONY : src/rt_matrx.s
+
+# target to generate assembly for a file
+src/rt_matrx.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_matrx.c.s
+.PHONY : src/rt_matrx.c.s
+
+src/rt_nonfinite.o: src/rt_nonfinite.c.o
+
+.PHONY : src/rt_nonfinite.o
+
+# target to build an object file
+src/rt_nonfinite.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.o
+.PHONY : src/rt_nonfinite.c.o
+
+src/rt_nonfinite.i: src/rt_nonfinite.c.i
+
+.PHONY : src/rt_nonfinite.i
+
+# target to preprocess a source file
+src/rt_nonfinite.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.i
+.PHONY : src/rt_nonfinite.c.i
+
+src/rt_nonfinite.s: src/rt_nonfinite.c.s
+
+.PHONY : src/rt_nonfinite.s
+
+# target to generate assembly for a file
+src/rt_nonfinite.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_nonfinite.c.s
+.PHONY : src/rt_nonfinite.c.s
+
+src/rt_printf.o: src/rt_printf.c.o
+
+.PHONY : src/rt_printf.o
+
+# target to build an object file
+src/rt_printf.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_printf.c.o
+.PHONY : src/rt_printf.c.o
+
+src/rt_printf.i: src/rt_printf.c.i
+
+.PHONY : src/rt_printf.i
+
+# target to preprocess a source file
+src/rt_printf.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_printf.c.i
+.PHONY : src/rt_printf.c.i
+
+src/rt_printf.s: src/rt_printf.c.s
+
+.PHONY : src/rt_printf.s
+
+# target to generate assembly for a file
+src/rt_printf.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/rt_printf.c.s
+.PHONY : src/rt_printf.c.s
+
+src/simulink_model_closedloop.o: src/simulink_model_closedloop.c.o
+
+.PHONY : src/simulink_model_closedloop.o
+
+# target to build an object file
+src/simulink_model_closedloop.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.o
+.PHONY : src/simulink_model_closedloop.c.o
+
+src/simulink_model_closedloop.i: src/simulink_model_closedloop.c.i
+
+.PHONY : src/simulink_model_closedloop.i
+
+# target to preprocess a source file
+src/simulink_model_closedloop.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.i
+.PHONY : src/simulink_model_closedloop.c.i
+
+src/simulink_model_closedloop.s: src/simulink_model_closedloop.c.s
+
+.PHONY : src/simulink_model_closedloop.s
+
+# target to generate assembly for a file
+src/simulink_model_closedloop.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop.c.s
+.PHONY : src/simulink_model_closedloop.c.s
+
+src/simulink_model_closedloop_data.o: src/simulink_model_closedloop_data.c.o
+
+.PHONY : src/simulink_model_closedloop_data.o
+
+# target to build an object file
+src/simulink_model_closedloop_data.c.o:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.o
+.PHONY : src/simulink_model_closedloop_data.c.o
+
+src/simulink_model_closedloop_data.i: src/simulink_model_closedloop_data.c.i
+
+.PHONY : src/simulink_model_closedloop_data.i
+
+# target to preprocess a source file
+src/simulink_model_closedloop_data.c.i:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.i
+.PHONY : src/simulink_model_closedloop_data.c.i
+
+src/simulink_model_closedloop_data.s: src/simulink_model_closedloop_data.c.s
+
+.PHONY : src/simulink_model_closedloop_data.s
+
+# target to generate assembly for a file
+src/simulink_model_closedloop_data.c.s:
+	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/simulink_model_closedloop_data.c.s
+.PHONY : src/simulink_model_closedloop_data.c.s
+
 src/test4acados_pub.o: src/test4acados_pub.cpp.o
 
 .PHONY : src/test4acados_pub.o
@@ -545,33 +1018,6 @@ src/test4acados_pub.cpp.s:
 	$(MAKE) -f CMakeFiles/test4acados_pub.dir/build.make CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.s
 .PHONY : src/test4acados_pub.cpp.s
 
-src/test4acados_sub.o: src/test4acados_sub.cpp.o
-
-.PHONY : src/test4acados_sub.o
-
-# target to build an object file
-src/test4acados_sub.cpp.o:
-	$(MAKE) -f CMakeFiles/test4acados_sub.dir/build.make CMakeFiles/test4acados_sub.dir/src/test4acados_sub.cpp.o
-.PHONY : src/test4acados_sub.cpp.o
-
-src/test4acados_sub.i: src/test4acados_sub.cpp.i
-
-.PHONY : src/test4acados_sub.i
-
-# target to preprocess a source file
-src/test4acados_sub.cpp.i:
-	$(MAKE) -f CMakeFiles/test4acados_sub.dir/build.make CMakeFiles/test4acados_sub.dir/src/test4acados_sub.cpp.i
-.PHONY : src/test4acados_sub.cpp.i
-
-src/test4acados_sub.s: src/test4acados_sub.cpp.s
-
-.PHONY : src/test4acados_sub.s
-
-# target to generate assembly for a file
-src/test4acados_sub.cpp.s:
-	$(MAKE) -f CMakeFiles/test4acados_sub.dir/build.make CMakeFiles/test4acados_sub.dir/src/test4acados_sub.cpp.s
-.PHONY : src/test4acados_sub.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -593,7 +1039,6 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... tests"
 	@echo "... roscpp_generate_messages_cpp"
-	@echo "... test4acados_sub"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_nodejs"
@@ -612,12 +1057,63 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/acados_sim_solver_bicycle_model.o"
+	@echo "... src/acados_sim_solver_bicycle_model.i"
+	@echo "... src/acados_sim_solver_bicycle_model.s"
+	@echo "... src/acados_sim_solver_sfunction_bicycle_model.o"
+	@echo "... src/acados_sim_solver_sfunction_bicycle_model.i"
+	@echo "... src/acados_sim_solver_sfunction_bicycle_model.s"
+	@echo "... src/acados_solver_bicycle_model.o"
+	@echo "... src/acados_solver_bicycle_model.i"
+	@echo "... src/acados_solver_bicycle_model.s"
+	@echo "... src/acados_solver_sfunction_bicycle_model.o"
+	@echo "... src/acados_solver_sfunction_bicycle_model.i"
+	@echo "... src/acados_solver_sfunction_bicycle_model.s"
+	@echo "... src/bicycle_model_constr_h_fun.o"
+	@echo "... src/bicycle_model_constr_h_fun.i"
+	@echo "... src/bicycle_model_constr_h_fun.s"
+	@echo "... src/bicycle_model_constr_h_fun_jac_uxt_zt.o"
+	@echo "... src/bicycle_model_constr_h_fun_jac_uxt_zt.i"
+	@echo "... src/bicycle_model_constr_h_fun_jac_uxt_zt.s"
+	@echo "... src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.o"
+	@echo "... src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.i"
+	@echo "... src/bicycle_model_constr_h_fun_jac_uxt_zt_hess.s"
+	@echo "... src/bicycle_model_expl_ode_fun.o"
+	@echo "... src/bicycle_model_expl_ode_fun.i"
+	@echo "... src/bicycle_model_expl_ode_fun.s"
+	@echo "... src/bicycle_model_expl_ode_hess.o"
+	@echo "... src/bicycle_model_expl_ode_hess.i"
+	@echo "... src/bicycle_model_expl_ode_hess.s"
+	@echo "... src/bicycle_model_expl_vde_adj.o"
+	@echo "... src/bicycle_model_expl_vde_adj.i"
+	@echo "... src/bicycle_model_expl_vde_adj.s"
+	@echo "... src/bicycle_model_expl_vde_forw.o"
+	@echo "... src/bicycle_model_expl_vde_forw.i"
+	@echo "... src/bicycle_model_expl_vde_forw.s"
+	@echo "... src/rtGetInf.o"
+	@echo "... src/rtGetInf.i"
+	@echo "... src/rtGetInf.s"
+	@echo "... src/rtGetNaN.o"
+	@echo "... src/rtGetNaN.i"
+	@echo "... src/rtGetNaN.s"
+	@echo "... src/rt_matrx.o"
+	@echo "... src/rt_matrx.i"
+	@echo "... src/rt_matrx.s"
+	@echo "... src/rt_nonfinite.o"
+	@echo "... src/rt_nonfinite.i"
+	@echo "... src/rt_nonfinite.s"
+	@echo "... src/rt_printf.o"
+	@echo "... src/rt_printf.i"
+	@echo "... src/rt_printf.s"
+	@echo "... src/simulink_model_closedloop.o"
+	@echo "... src/simulink_model_closedloop.i"
+	@echo "... src/simulink_model_closedloop.s"
+	@echo "... src/simulink_model_closedloop_data.o"
+	@echo "... src/simulink_model_closedloop_data.i"
+	@echo "... src/simulink_model_closedloop_data.s"
 	@echo "... src/test4acados_pub.o"
 	@echo "... src/test4acados_pub.i"
 	@echo "... src/test4acados_pub.s"
-	@echo "... src/test4acados_sub.o"
-	@echo "... src/test4acados_sub.i"
-	@echo "... src/test4acados_sub.s"
 .PHONY : help
 
 

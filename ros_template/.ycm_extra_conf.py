@@ -21,7 +21,7 @@ flags = [
 '-isystem',
 '/home/xie/桌面/ros_template/ros_template/devel/include',
 '-isystem',
-'/home/xie/桌面/ros_template/ros_template/src/CMakeLists.txt/include'
+'/home/xie/桌面/ros_template/ros_template/src/test4acados/include'
 ]
 
 compilation_database_folder = ''

@@ -204,19 +204,20 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
+include_directories (${CMAKE_CURRENT_SOURCE_DIR}/include)
+message("headfile directories is setted")
+
+link_directories (${CMAKE_CURRENT_SOURCE_DIR}/lib)
+message("lib directories is setted")
+
+aux_source_directory ( ${CMAKE_CURRENT_SOURCE_DIR}/src MY_SOURCES)
+message("source directories is setted")
 
 add_executable(test4acados_pub
-  src/test4acados_pub.cpp
+${MY_SOURCES}
 )
 add_dependencies(test4acados_pub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(test4acados_pub
+target_link_libraries(test4acados_pub acados blasfeo hpipm m
   ${catkin_LIBRARIES}
 )
 
-add_executable(test4acados_sub
-  src/test4acados_sub.cpp
-)
-add_dependencies(test4acados_sub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(test4acados_sub
-  ${catkin_LIBRARIES}
-)
