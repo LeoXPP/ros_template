@@ -204,7 +204,7 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-include_directories (${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories (/home/xie/桌面/ros_template/ros_template/include)
 message("headfile directories is setted")
 
 link_directories (${CMAKE_CURRENT_SOURCE_DIR}/lib)
@@ -220,4 +220,5 @@ add_dependencies(test4acados_pub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EX
 target_link_libraries(test4acados_pub acados blasfeo hpipm m
   ${catkin_LIBRARIES}
 )
+
 

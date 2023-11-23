@@ -38,6 +38,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/xie/桌面/ros_template/ros_template/src/test4acados/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/xie/桌面/ros_template/ros_template/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/xie/桌面/ros_template/ros_template/src/test4acados/src/test4acados_pub.cpp" "/home/xie/桌面/ros_template/build/CMakeFiles/test4acados_pub.dir/src/test4acados_pub.cpp.o"
@@ -56,6 +57,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/xie/桌面/ros_template/ros_template/src/test4acados/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/xie/桌面/ros_template/ros_template/include"
   )
 
 # Targets to which this target links.

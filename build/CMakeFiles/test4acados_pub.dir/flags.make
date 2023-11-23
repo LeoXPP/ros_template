@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"test4acados\"
 
-C_INCLUDES = -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+C_INCLUDES = -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/xie/桌面/ros_template/ros_template/include 
 
 CXX_FLAGS = -g  
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"test4acados\"
 
-CXX_INCLUDES = -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/xie/桌面/ros_template/ros_template/src/test4acados/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/xie/桌面/ros_template/ros_template/include 
 
